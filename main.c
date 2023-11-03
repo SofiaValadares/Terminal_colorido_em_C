@@ -27,7 +27,7 @@
 #define BG_CYAN       "\033[46;37m"
 
 int main() {
-    printf(HIDDEN BG_RED "        " BG_YELLOW "        " BG_GREEN "        "" BG_BLUE "     " RESET BG_BLUE BOLD "Hello Word!" HIDDEN "      " BG_GREEN "        " BG_YELLOW "        " BG_RED "        " RESET "\n\n");
+    printf(HIDDEN BG_RED "        " BG_YELLOW "        " BG_GREEN "        " BG_BLUE "     " RESET BG_BLUE BOLD "Hello Word!" HIDDEN "      " BG_GREEN "        " BG_YELLOW "        " BG_RED "        " RESET "\n\n");
     printf(ITALIC UNDERLINE BOLD "Cores no terminal!" RESET ITALIC UNDERLINE " Um novo mundo...\n\n\n" RESET);
 
     return 0;
