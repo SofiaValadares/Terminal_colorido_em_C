@@ -10,13 +10,13 @@
 #define HIDDEN     "\033[8m"
 
 // Cores do texto
-#define RED        "\033[1;31m"
-#define GREEN      "\033[1;32m"
-#define YELLOW     "\033[1;33m"
-#define BLUE       "\033[1;34m"
-#define MAGENTA    "\033[1;35m"
-#define CYAN       "\033[1;36m"
-#define WHITE      "\033[1;97m" 
+#define RED        "\033[31m"
+#define GREEN      "\033[32m"
+#define YELLOW     "\033[33m"
+#define BLUE       "\033[34m"
+#define MAGENTA    "\033[35m"
+#define CYAN       "\033[36m"
+#define WHITE      "\033[97m" 
 
 // Cores de fundo
 #define BG_RED        "\033[41;37m"
@@ -28,7 +28,7 @@
 
 int main() {
     printf(HIDDEN BG_RED "        " BG_YELLOW "        " BG_GREEN "        " BG_BLUE "     " RESET BG_BLUE BOLD "Hello Word!" HIDDEN "      " BG_GREEN "        " BG_YELLOW "        " BG_RED "        " RESET "\n\n");
-    printf(ITALIC UNDERLINE BOLD "Cores no terminal!" RESET ITALIC UNDERLINE " Um novo mundo...\n\n\n" RESET);
+    printf(ITALIC UNDERLINE BOLD CYAN "Cores no terminal!" RESET ITALIC UNDERLINE " Um novo mundo...\n\n\n" RESET);
 
     return 0;
 }
